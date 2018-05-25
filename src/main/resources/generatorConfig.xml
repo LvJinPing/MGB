@@ -28,7 +28,7 @@
 
         <!--自动生成的实体的存放包路径 -->
 
-        <javaModelGenerator  targetPackage="com.zhubajie.crmchance.dao.ecb.entity"
+        <javaModelGenerator  targetPackage="com.xxx.xx.dao.ecb.entity"
 
                              targetProject="src/main/java">
 
@@ -42,7 +42,7 @@
 
         <!--自动生成的*Mapper.xml文件存放路径 -->
 
-        <sqlMapGenerator  targetPackage="com.zhubajie.crmchance.dao.ecb.mapper"
+        <sqlMapGenerator  targetPackage="com.xxx.xx.dao.ecb.mapper"
 
                           targetProject="src/main/java">
 
@@ -58,7 +58,7 @@
 
         <javaClientGenerator type="XMLMAPPER"
 
-                             targetPackage="com.zhubajie.crmchance.dao.ecb.mapper"  targetProject="src/main/java">
+                             targetPackage="com.xxx.xx.dao.ecb.mapper"  targetProject="src/main/java">
 
             <property  name="enableSubPackages"  value="true"/>
 
